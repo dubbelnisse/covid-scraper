@@ -1,0 +1,21 @@
+{
+  "name": "convid19-scraper",
+  "version": "1.0.0",
+  "description": "Get and store data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest",
+    "migrate:up": "knex migrate:latest --env dev",
+    "migrate:down": "knex migrate:rollback --all --env dev"
+  },
+  "author": "Nils Nilsson",
+  "license": "ISC",
+  "dependencies": {
+    "@iteam/config": "^12.1.0",
+    "got": "^10.6.0",
+    "knex": "^0.20.11",
+    "node-cron": "^2.0.3",
+    "pg": "^7.18.2"
+  }
+}
