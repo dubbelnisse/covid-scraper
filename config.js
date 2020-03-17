@@ -4,6 +4,7 @@ const config = require('@iteam/config')({
     cron: '* * * * *',
     db: {
       host: '127.0.0.1',
+      port: 5432,
       user: 'nisse',
       password: 'kalleanka321',
       database: 'convid',

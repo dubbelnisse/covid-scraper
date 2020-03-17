@@ -7,6 +7,7 @@ const db = knex({
   client: 'pg',
   connection: {
     host: config.default.db.host,
+    port: config.default.db.port,
     user: config.default.db.user,
     password: config.default.db.password,
     database: config.default.db.database,
