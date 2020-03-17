@@ -6,7 +6,7 @@ module.exports = {
     client: 'pg',
     connection: {
       host: config.default.db.host,
-      host: config.default.db.port,
+      port: config.default.db.port,
       database: config.default.db.database,
       user: config.default.db.user,
       password:config.default.db.password,
@@ -22,7 +22,7 @@ module.exports = {
     client: 'pg',
     connection: {
       host: config.default.db.host,
-      host: config.default.db.port,
+      port: config.default.db.port,
       database: config.default.db.database,
       user: config.default.db.user,
       password:config.default.db.password,
