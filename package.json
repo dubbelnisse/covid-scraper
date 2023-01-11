@@ -14,7 +14,7 @@
   "dependencies": {
     "@iteam/config": "12.1.0",
     "got": "10.6.0",
-    "knex": "0.20.11",
+    "knex": "2.4.0",
     "node-cron": "2.0.3",
     "node-pretty-log": "1.1.0",
     "nodemon": "2.0.2",
